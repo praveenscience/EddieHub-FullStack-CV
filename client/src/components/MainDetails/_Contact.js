@@ -1,17 +1,21 @@
-const Contact = () => {
+const Contact = ({ Email, WebSite, Phone }) => {
+  WebSite = WebSite ? WebSite : "";
   return (
     <div id="contactDetails" className="quickFade delayFour">
       <ul>
         <li>
-          e:{" "}
-          <a href="mailto:joe@bloggs.com" target="_blank">
-            joe@bloggs.com
+          {"e: "}
+          <a href={"mailto:" + Email} target="_blank">
+            {Email}
           </a>
         </li>
         <li>
-          w: <a href="http://www.bloggs.com">www.bloggs.com</a>
+          {"w: "}
+          <a href={WebSite} target="_blank">
+            {WebSite.replace("https://", "").replace("http://", "")}
+          </a>
         </li>
-        <li>m: 01234567890</li>
+        <li>m: {Phone}</li>
       </ul>
     </div>
   );
