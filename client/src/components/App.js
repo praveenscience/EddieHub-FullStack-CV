@@ -1,11 +1,12 @@
+import Config from "../constants/Config";
 import MainArea from "./MainArea/MainArea";
 import MainDetails from "./MainDetails/MainDetails";
 
 const App = () => {
-  document.title = "My Name - Curriculum Vitae";
+  document.title = Config.MainDetails.FullName + " - Curriculum Vitae";
   return (
     <>
-      <MainDetails />
+      <MainDetails {...Config.MainDetails} />
       <MainArea />
     </>
   );
