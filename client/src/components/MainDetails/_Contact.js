@@ -5,13 +5,11 @@ const Contact = ({ Email, WebSite, Phone }) => {
       <ul>
         <li>
           {"e: "}
-          <a href={"mailto:" + Email} target="_blank">
-            {Email}
-          </a>
+          <a href={"mailto:" + Email}>{Email}</a>
         </li>
         <li>
           {"w: "}
-          <a href={WebSite} target="_blank">
+          <a href={WebSite} target="_blank" rel="noreferrer">
             {WebSite.replace("https://", "").replace("http://", "")}
           </a>
         </li>
