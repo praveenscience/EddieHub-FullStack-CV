@@ -1,5 +1,14 @@
+import MainArea from "./MainArea/MainArea";
+import MainDetails from "./MainDetails/MainDetails";
+
 const App = () => {
-  return <div className="App">My CV</div>;
+  document.title = "My Name - Curriculum Vitae";
+  return (
+    <>
+      <MainDetails />
+      <MainArea />
+    </>
+  );
 };
 
 export default App;
