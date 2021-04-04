@@ -3,10 +3,10 @@ import KeySkills from "./_KeySkills";
 import PersonalProfile from "./_PersonalProfile";
 import WorkExperience from "./_WorkExperience";
 
-const MainArea = () => {
+const MainArea = ({ ProfileText }) => {
   return (
     <div id="mainArea" className="quickFade delayFive">
-      <PersonalProfile />
+      <PersonalProfile ProfileText={ProfileText} />
       <WorkExperience />
       <KeySkills />
       <Education />

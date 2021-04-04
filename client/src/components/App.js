@@ -7,7 +7,7 @@ const App = () => {
   return (
     <>
       <MainDetails {...Config.MainDetails} />
-      <MainArea />
+      <MainArea {...Config.MainArea} />
     </>
   );
 };
