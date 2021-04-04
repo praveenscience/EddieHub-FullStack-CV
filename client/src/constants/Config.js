@@ -28,6 +28,17 @@ const Config = {
         Description:
           "Back-end developers are usually responsible for writing the web services and APIs used by front-end developers and mobile application developers."
       }
+    ],
+    Skills: [
+      "PHP",
+      "HTML 5",
+      "CSS 3",
+      "JavaScript",
+      "ES6",
+      "Python",
+      "Flask",
+      "MySQL",
+      "postgreSQL"
     ]
   }
 };

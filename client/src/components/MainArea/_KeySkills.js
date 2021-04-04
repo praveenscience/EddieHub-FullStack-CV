@@ -1,4 +1,5 @@
-const KeySkills = () => {
+const KeySkills = ({ Skills }) => {
+  Skills = Skills ? Skills : [];
   return (
     <section>
       <div className="sectionTitle">
@@ -7,14 +8,9 @@ const KeySkills = () => {
 
       <div className="sectionContent">
         <ul className="keySkills">
-          <li>A Key Skill</li>
-          <li>A Key Skill</li>
-          <li>A Key Skill</li>
-          <li>A Key Skill</li>
-          <li>A Key Skill</li>
-          <li>A Key Skill</li>
-          <li>A Key Skill</li>
-          <li>A Key Skill</li>
+          {Skills.map(skill => (
+            <li key={skill}>{skill}</li>
+          ))}
         </ul>
       </div>
       <div className="clear"></div>
