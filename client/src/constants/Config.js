@@ -4,9 +4,9 @@ const Config = {
     Title: "Full Stack JavaScript Developer",
     URL: "https://i.imgur.com/5I70Obzm.png",
     Contacts: {
-      Email: "sneha@web.com",
-      WebSite: "https://www.web.com",
-      Phone: "+44 789 456 1230"
+      Email: "praveen@praveen.science",
+      WebSite: "https://praveen.science",
+      Phone: "+44 740 570 XXXX"
     }
   },
   MainArea: {
