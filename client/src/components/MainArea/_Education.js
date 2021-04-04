@@ -1,6 +1,7 @@
-import React from "react";
+import EduItem from "./_EduItem";
 
-const Education = () => {
+const Education = ({ Studies }) => {
+  Studies = Studies ? Studies : [];
   return (
     <section>
       <div className="sectionTitle">
@@ -8,25 +9,9 @@ const Education = () => {
       </div>
 
       <div className="sectionContent">
-        <article>
-          <h2>College/University</h2>
-          <p className="subDetails">Qualification</p>
-          <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec
-            ultricies massa et erat luctus hendrerit. Curabitur non consequat
-            enim.
-          </p>
-        </article>
-
-        <article>
-          <h2>College/University</h2>
-          <p className="subDetails">Qualification</p>
-          <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec
-            ultricies massa et erat luctus hendrerit. Curabitur non consequat
-            enim.
-          </p>
-        </article>
+        {Studies.map((study, key) => (
+          <EduItem key={key} {...study} />
+        ))}
       </div>
       <div className="clear"></div>
     </section>

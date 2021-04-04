@@ -39,6 +39,20 @@ const Config = {
       "Flask",
       "MySQL",
       "postgreSQL"
+    ],
+    Studies: [
+      {
+        Qualification: "Master of Computer Applications",
+        College: "Punyashlok Ahilyadevi Holkar Solapur University",
+        Description:
+          "Master of Computer Applications or MCA is a professional degree in computer science. MCA is a three year long professional post-graduate degree course for students who deeply want to learn computer application development."
+      },
+      {
+        Qualification: "Bachelors in Computer Application",
+        College: "Hirachand Nemchand College of Commerce",
+        Description:
+          "A BCA degree is considered to be at par with a BTech degree in Computer Science or Information Technology. The degree helps interested students in setting up a sound academic base for an advanced career in Computer Applications."
+      }
     ]
   }
 };
