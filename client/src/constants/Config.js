@@ -1,12 +1,12 @@
 const Config = {
   MainDetails: {
-    FullName: "Graham Hilton",
-    Title: "Computer Scientist",
+    FullName: "Sneha Dudhankar",
+    Title: "Web Developer",
     URL:
-      "https://yt4.ggpht.com/ytc/AAUvwnhfv-kkGd-wHrnihF1_G5fc1Z62z0zLUD7cCxD-=s512-c-k-c0x00ffffff-no-rj",
+      "https://yt4.ggpht.com/ytc/AAUvwnjlHIJMMLHYwJ5qt2JCMd2C7qgJebPxPD2GGrqKVg=c-k-c0x00ffffff-no-rj",
     Contacts: {
-      Email: "graham@hilton.com",
-      WebSite: "https://www.hilton.com",
+      Email: "sneha@web.com",
+      WebSite: "https://www.web.com",
       Phone: "+44 789 456 1230"
     }
   }
